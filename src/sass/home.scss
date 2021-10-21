@@ -1,0 +1,22 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+//@import "md_variables";
+//@import "variables";
+
+// scss-docs-start import-stack
+//@import "~bootstrap/scss/bootstrap";
+
+
+@import "header";
+@import "footer";
+
+body 
+  {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+#hc-page-index {
+    .title{
+      //font-size: 14px;
+    }
+}
