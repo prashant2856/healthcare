@@ -5,7 +5,6 @@ let purgecss = require('@fullhuman/postcss-purgecss');
 mix.setPublicPath("dist");
 
 mix.js("src/js/home.js", "dist/js");
-// mix.sass("src/sass/home.scss", "dist/css");
 mix.sass("src/sass/home.scss", "dist/css");
 
 

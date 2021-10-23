@@ -5,7 +5,6 @@ header {
     height: 982px;
     .navbar-nav {
       .nav-link {
-        font: normal Source Sans Pro;
         color: #ffffff;
         padding-top: 53px;
         @include media-breakpoint-up(sm) {
@@ -37,24 +36,66 @@ header {
         max-width: 660px;
         width: 100%;  
         h5{
-           font-size: 22px;
            color: #FFFFFF;
-           margin: 176px 0 0 160px;
+           @include media-breakpoint-up(sm){
+            font-size: 22px;
+            margin: 176px 0 0 160px;
+            }
           }
         h1{
-           font-size: 80px;
-           font-weight: bolder;
            color: #FFFFFF;
-           margin: 31px 27px 0 170px;
            width: 100%;
+           @include media-breakpoint-up(sm){
+            font-size: 80px;
+            font-weight: bolder;
+            margin: 31px 27px 0 160px;
+           }
           }   
           p{
-             font-size: 22px;
-             text-align: left;
-             margin: 35px 0 0 160px;
-             line-height: 32px;
              color: #FFFFFF;
+             @include media-breakpoint-up(sm)
+             {
+              font-size: 22px;
+              margin: 35px 0 0 160px;
+              line-height: 32px;
+             }
           }
       }
-  }
+      
+      .btnview{
+        background-color: #e43556;
+        border: none;
+        color: white;
+        &:hover {
+          color: #e43556;
+          background-color: #dedede;
+        }
+        @include media-breakpoint-up(sm) {
+          text-decoration: none;
+          display: inline-block;
+          border-radius: 0;
+          font-size: 20px;
+          width: 149px;
+          height: 52px;
+          margin: 51px 0 0 160px;
+        }
+      }
+
+      .bgimg{
+          background-image: url("../images/trans1.png");
+          background-size: 100%;
+          background-position: top center;
+          background-repeat: no-repeat;
+          height: 500px;
+      .bannerimage{
+           background-image: url("../images/bannerimg.png");
+           background-size: 100%;
+           background-position: center;
+           background-repeat: no-repeat; 
+           height: 872px;
+          }
+      }
+   }
 }
+
+
