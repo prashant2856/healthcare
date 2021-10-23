@@ -1,13 +1,19 @@
 {
     "/js/home.js": "/js/home.js",
     "/css/home.css": "/css/home.css",
-    "/images/Group 122.png": "/images/Group 122.png",
-    "/images/Untitled-1.png": "/images/Untitled-1.png",
+    "/images/bannerbg.png": "/images/bannerbg.png",
     "/images/bannerimg.png": "/images/bannerimg.png",
+    "/images/logo.png": "/images/logo.png",
     "/images/prod1.png": "/images/prod1.png",
+    "/images/prod2.png": "/images/prod2.png",
+    "/images/prod3.png": "/images/prod3.png",
     "/images/trans1.png": "/images/trans1.png",
     "/images/trans2.png": "/images/trans2.png",
     "/images/virus (1).png": "/images/virus (1).png",
     "/images/virus.png": "/images/virus.png",
-    "/images/prod2.png": "/images/prod2.png"
+    "/images/banner.png": "/images/banner.png",
+    "/images/Group 122.png~Updated upstream": "/images/Group 122.png~Updated upstream",
+    "/images/Untitled-1.png~Updated upstream": "/images/Untitled-1.png~Updated upstream",
+    "/images/bannerbg.png~Updated upstream": "/images/bannerbg.png~Updated upstream",
+    "/images/logo.png~Updated upstream": "/images/logo.png~Updated upstream"
 }
