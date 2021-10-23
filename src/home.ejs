@@ -1,66 +1,63 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
     <title>Healthcare</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
 
-</head>
+  <body>
+    <% include /src/include/header.ejs %>
 
-<body>
-
-        <% include /src/include/header.ejs %>
-
-        <main id="hc-page-index">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="prod1">
-                              <h3>Health Security Mask Collection</h3>
-                              <h5>20% Off</h5>
-                            <div class="prodinfo">
-                              <button class="btnprodview">View Now</button>
-                              <img src="images/prod1.png">
-                            </div>
-                        </div> 
-                    </div>
-                    <div class="col-md-4">
-                        <div class="prod2">
-                            <h3>Best Hand Sanitizer Collection</h3>
-                            <h5>20% Off</h5>
-                          <div class="prodinfo">
-                            <button class="btnprodview">View Now</button>
-                            <img src="images/prod2.png">
-                          </div>
-                      </div> 
-                    </div>
-                    <div class="col-md-4">
-                        <div class="prod1">
-                            <h3>Medical Gloves & Sunglasses Collection</h3>
-                            <h5>20% Off</h5>
-                          <div class="prodinfo">
-                            <button class="btnprodview">View Now</button>
-                            <img src="images/prod3.png">
-                          </div>
-                      </div> 
-                    </div>
-                </div>
+    <main id="hc-page-index">
+      <section class="sectioninfo">
+         <div class="bgimage2">
+        <div class="container">
+          <row>              
+            <div class="col-md-6">           
+              <div class="bannertxt">
+                <h5>COVID-19 Be Aware Of Coronavirus</h5>
+                <h1>Protect Yourself From Virus.</h1>
+                <p>
+                  Lorem Ipsum has been the industry's standard dummy text ever
+                  since the 1500s, when an unknown printer tookng.
+                </p>
+              </div>
+              </div>             
+                <button class="btnview" type="button">View Product</button>
+              </div>
             </div>
-        </main>
+            <div class="col-md-6">
+                <div class="bannerimage"></div>
+            </div>
+             <div>
+          </row>
+        </div>
+      </section>
+    </main>
 
-        <% include /src/include/footer.ejs %>
+    <% include /src/include/footer.ejs %>
 
-        <script src="js/home.js"></script>
-
-</body>
-
+    <script src="js/home.js"></script>
+  </body>
 </html>

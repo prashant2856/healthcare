@@ -18,12 +18,77 @@ body {
     max-width: 1566px;
     width: 100%;
   }
+
+  .sectioninfo{
+  
+  .bgimage2{
+    background-color: #2b4a84;
+    background-image: url("../images/virus.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 982px;
+    position: absolute;
+    top:0;
+    z-index: -1;
+  }
+  .bannertxt {
+    max-width: 660px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left:12%;
+    p {
+      color: #ffffff;
+      @include media-breakpoint-up(sm) {
+        font-size: 22px;
+        margin-bottom: 0;
+      }
+    }
+    h1 {
+      color: #ffffff;
+      width: 100%;
+      @include media-breakpoint-up(sm) {
+        font-size: 80px;
+        font-weight: bolder;
+        margin-top: 31px;
+      }
+    }
+   
+  }
+
+  .btnview {
+    background-color: #e43556;
+    border: none;
+    color: white;
+    &:hover {
+      color: #e43556;
+      background-color: #dedede;
+    }
+    @include media-breakpoint-up(sm) {
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 0;
+      font-size: 20px;
+      width: 149px;
+      height: 52px;
+      margin: 51px 0 0 120px;
+    }
+  }
+
+  
+    .bannerimage {
+      background-image: url("../images/banner.png");
+      background-size: 100%;
+      background-position: bottom center;
+      background-repeat: no-repeat;
+    }
+
+
   .prod1 {
     background-color: #e9f2fe;
     @include media-breakpoint-up(sm) {
       width: 502px;
       height: 334px;
-      margin: 120px;
     }
     h3 {
       color: #3a393e;
@@ -70,7 +135,7 @@ body {
     @include media-breakpoint-up(sm) {
       width: 502px;
       height: 334px;
-      margin: 120px;   
+      margin: 120px;
       h3 {
         color: #3a393e;
         @include media-breakpoint-up(sm) {
@@ -112,4 +177,5 @@ body {
       }
     }
   }
+}
 }
