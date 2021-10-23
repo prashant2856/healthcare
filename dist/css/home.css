@@ -22637,6 +22637,10 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+#hc-page-index .container {
+  max-width: 1566px;
+  width: 100%;
+}
 #hc-page-index .prod1 {
   background-color: #E9F2FE;
 }
