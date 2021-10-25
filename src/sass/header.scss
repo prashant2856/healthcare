@@ -5,14 +5,14 @@ header {
       background-image: url("../images/logo.png");
       width: 62px;
       height: 67px;
-      margin: 40px;
+      margin-top: 40px;
 
       h2 {
         font-size: 23px;
         font-weight: bold;
         width: 50px;
         height: 23px;
-        margin: 40px;
+        margin-top: 40px;
         color: #ffffff;
       }
       span {
@@ -20,7 +20,7 @@ header {
         font-weight: bold;
         width: 73px;
         height: 22px;
-        margin: 40px;
+        margin-top: 40px;
         color: #e43556;
       }
     }
@@ -28,7 +28,7 @@ header {
       margin-top: 30px;
       .nav-link {
         color: #ffffff;
-        margin: 0 auto;
+        margin-top: 38px;
         @include media-breakpoint-up(sm) {
           font-size: 20px;
           font-weight: 500;
@@ -46,7 +46,7 @@ header {
           font-size: 30px;
           background-color: #ffffff;
           padding: 9px 5px 5px 17px;
-          margin: 20px;
+          margin-top: 20px;
         }
       }
       .btnsignup {
@@ -64,7 +64,7 @@ header {
           font-size: 20px;
           width: 159px;
           height: 56px;
-          margin: 20px 0 0 25px;
+          margin-top: 20px;
         }
       }
     }
