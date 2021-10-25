@@ -11288,69 +11288,66 @@ header .logo {
   background-image: url(/images/logo.png?2511746ef97ade47c369c8f45cc88b7a);
   width: 62px;
   height: 67px;
-  margin: 40px;
 }
 header .logo h2, header .logo .h2 {
   font-size: 23px;
   font-weight: bold;
   width: 50px;
   height: 23px;
-  margin: 40px;
   color: #ffffff;
+  margin: 55px 0 0 65px;
 }
-header .logo span {
+header .logo h2 span, header .logo .h2 span {
   font-size: 22px;
   font-weight: bold;
   width: 73px;
   height: 22px;
-  margin: 40px;
   color: #e43556;
+  margin: 55px 0 0 2px;
 }
 header .navbar-nav {
-  margin-top: 30px;
+  margin-top: 38px;
 }
 header .navbar-nav .nav-link {
   color: #ffffff;
-  margin: 0 auto;
 }
 @media (min-width: 576px) {
   header .navbar-nav .nav-link {
     font-size: 20px;
     font-weight: 500;
-    padding-right: 2.5rem;
   }
 }
-header .icon .fa-shopping-bag {
+header .fa-shopping-bag {
   color: #e43556;
   width: 62px;
   height: 56px;
 }
 @media (min-width: 576px) {
-  header .icon .fa-shopping-bag {
+  header .fa-shopping-bag {
     font-size: 30px;
     background-color: #ffffff;
     padding: 9px 5px 5px 17px;
-    margin: 20px;
+    margin-top: 20px;
   }
 }
-header .icon .btnsignup {
+header .btnsignup {
   background-color: #e43556;
   border: none;
   color: white;
 }
-header .icon .btnsignup:hover {
+header .btnsignup:hover {
   color: #e43556;
   background-color: #dedede;
 }
 @media (min-width: 576px) {
-  header .icon .btnsignup {
+  header .btnsignup {
     text-decoration: none;
     display: inline-block;
     border-radius: 0;
     font-size: 20px;
     width: 159px;
     height: 56px;
-    margin: 20px 0 0 25px;
+    margin-top: 20px;
   }
 }
 
@@ -11368,112 +11365,134 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   height: 982px;
-  position: absolute;
-  top: 0;
-  z-index: -1;
+  margin-top: -122px;
 }
-#hc-page-index .sectioninfo .bannertxt {
+#hc-page-index .sectioninfo .bgimage2 .bannertxt {
   max-width: 660px;
   width: 100%;
   position: absolute;
   top: 50%;
   left: 12%;
 }
-#hc-page-index .sectioninfo .bannertxt p {
+#hc-page-index .sectioninfo .bgimage2 .bannertxt h5, #hc-page-index .sectioninfo .bgimage2 .bannertxt .h5 {
   color: #ffffff;
 }
 @media (min-width: 576px) {
-  #hc-page-index .sectioninfo .bannertxt p {
+  #hc-page-index .sectioninfo .bgimage2 .bannertxt h5, #hc-page-index .sectioninfo .bgimage2 .bannertxt .h5 {
     font-size: 22px;
     margin-bottom: 0;
   }
 }
-#hc-page-index .sectioninfo .bannertxt h1, #hc-page-index .sectioninfo .bannertxt .h1 {
+#hc-page-index .sectioninfo .bgimage2 .bannertxt h1, #hc-page-index .sectioninfo .bgimage2 .bannertxt .h1 {
   color: #ffffff;
   width: 100%;
 }
 @media (min-width: 576px) {
-  #hc-page-index .sectioninfo .bannertxt h1, #hc-page-index .sectioninfo .bannertxt .h1 {
+  #hc-page-index .sectioninfo .bgimage2 .bannertxt h1, #hc-page-index .sectioninfo .bgimage2 .bannertxt .h1 {
     font-size: 80px;
     font-weight: bolder;
     margin-top: 31px;
   }
 }
-#hc-page-index .sectioninfo .btnview {
+#hc-page-index .sectioninfo .bgimage2 .bannertxt p {
+  color: #ffffff;
+}
+@media (min-width: 576px) {
+  #hc-page-index .sectioninfo .bgimage2 .bannertxt p {
+    font-size: 18px;
+  }
+}
+#hc-page-index .sectioninfo .bgimage2 .btnview {
   background-color: #e43556;
   border: none;
   color: white;
 }
-#hc-page-index .sectioninfo .btnview:hover {
+#hc-page-index .sectioninfo .bgimage2 .btnview:hover {
   color: #e43556;
   background-color: #dedede;
 }
 @media (min-width: 576px) {
-  #hc-page-index .sectioninfo .btnview {
+  #hc-page-index .sectioninfo .bgimage2 .btnview {
     text-decoration: none;
     display: inline-block;
     border-radius: 0;
     font-size: 20px;
     width: 149px;
     height: 52px;
-    margin: 51px 0 0 120px;
+    margin-top: 51px;
   }
 }
-#hc-page-index .sectioninfo .bannerimage {
+#hc-page-index .sectioninfo .bgimage2 .bannerimage {
   background-image: url(/images/banner.png?4a4f8c055342076127fc9f5e44a4e42d);
   background-size: 100%;
-  background-position: bottom center;
+  background-position: center;
   background-repeat: no-repeat;
 }
-#hc-page-index .sectioninfo .prod1 {
+@media (min-width: 576px) {
+  #hc-page-index .sectioninfo .bgimage2 .bannerimage {
+    position: absolute;
+    top: 167px;
+    right: 10%;
+    max-width: 610px;
+    width: 100%;
+    height: 914px;
+  }
+}
+#hc-page-index .prodinfo {
+  margin-top: 60px;
+}
+#hc-page-index .prodinfo .prod1 {
   background-color: #e9f2fe;
 }
 @media (min-width: 576px) {
-  #hc-page-index .sectioninfo .prod1 {
-    width: 502px;
+  #hc-page-index .prodinfo .prod1 {
+    max-width: 502px;
+    width: 100%;
     height: 334px;
   }
 }
-#hc-page-index .sectioninfo .prod1 h3, #hc-page-index .sectioninfo .prod1 .h3 {
+#hc-page-index .prodinfo .prod1 h3, #hc-page-index .prodinfo .prod1 .h3 {
   color: #3a393e;
 }
 @media (min-width: 576px) {
-  #hc-page-index .sectioninfo .prod1 h3, #hc-page-index .sectioninfo .prod1 .h3 {
+  #hc-page-index .prodinfo .prod1 h3, #hc-page-index .prodinfo .prod1 .h3 {
     padding: 52px 169px 0 31px;
     font-size: 30px;
     font-weight: bolder;
   }
 }
-#hc-page-index .sectioninfo .prod1 h5, #hc-page-index .sectioninfo .prod1 .h5 {
+#hc-page-index .prodinfo .prod1 h5, #hc-page-index .prodinfo .prod1 .h5 {
   color: #3a393e;
 }
 @media (min-width: 576px) {
-  #hc-page-index .sectioninfo .prod1 h5, #hc-page-index .sectioninfo .prod1 .h5 {
-    padding: 13px 391px 0 31px;
+  #hc-page-index .prodinfo .prod1 h5, #hc-page-index .prodinfo .prod1 .h5 {
+    padding: 13px 0 0 31px;
     font-size: 22px;
   }
 }
-#hc-page-index .sectioninfo .prod1 .prodinfo .btnprodview {
+#hc-page-index .prodinfo .prod1 .prodimg .btnprod {
   background-color: #e43556;
   border: none;
   color: white;
 }
-#hc-page-index .sectioninfo .prod1 .prodinfo .btnprodview:hover {
+#hc-page-index .prodinfo .prod1 .prodimg .btnprod:hover {
   color: #e43556;
   background-color: #dedede;
 }
 @media (min-width: 576px) {
-  #hc-page-index .sectioninfo .prod1 .prodinfo .btnprodview {
+  #hc-page-index .prodinfo .prod1 .prodimg .btnprod {
     text-decoration: none;
     display: inline-block;
-    margin: 21px 304px 0 31px;
     border-radius: 0;
     font-size: 20px;
-    width: 150px;
-    height: 56px;
+    width: 149px;
+    height: 52px;
+    margin: 48px 0 0 25px;
   }
 }
-#hc-page-index .sectioninfo .prod1 .prodinfo img {
-  width: 390px;
+#hc-page-index .prodinfo .prod1 .prodimg img {
+  max-width: 390px;
+  width: 100%;
   height: 260px;
+  position: absolute;
 }
