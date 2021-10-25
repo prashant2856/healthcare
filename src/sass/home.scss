@@ -19,110 +19,46 @@ body {
     width: 100%;
   }
 
-  .sectioninfo{
-  
-  .bgimage2{
-    background-color: #2b4a84;
-    background-image: url("../images/virus.png");
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 982px;
-    position: absolute;
-    top:0;
-    z-index: -1;
-  
-  .bannertxt {
-    max-width: 660px;
-    width: 100%;
-    position: absolute;
-    top: 30%;
-    left:12%;
-    h5 {
-      color: #ffffff;
-      @include media-breakpoint-up(sm) {
-        font-size: 22px;
-        margin-bottom: 0;
-      }
-    }
-    h1 {
-      color: #ffffff;
-      width: 100%;
-      @include media-breakpoint-up(sm) {
-        font-size: 80px;
-        font-weight: bolder;
-        margin-top: 31px;
-      }
-    }
-    p{
-       color: #ffffff;
-       @include media-breakpoint-up(sm){
-         font-size: 18px;
-       }
-    }
-   
-  }
-
-  .btnview {
-    background-color: #e43556;
-    border: none;
-    color: white;
-    &:hover {
-      color: #e43556;
-      background-color: #dedede;
-    }
-    @include media-breakpoint-up(sm) {
-      text-decoration: none;
-      display: inline-block;
-      border-radius: 0;
-      font-size: 20px;
-      width: 149px;
-      height: 52px;
-      margin-top: 51px;
-    }
-  }
-
-  
-    .bannerimage {
-      background-image: url("../images/banner.png");
-      background-size: 100%;
-      background-position: center;
+  .sectioninfo {
+    .bgimage2 {
+      background-color: #2b4a84;
+      background-image: url("../images/virus.png");
       background-repeat: no-repeat;
-      @include media-breakpoint-up(sm){
-          position: absolute;
-          top: 10%;
-          right:10%;
-          max-width: 610px;
-          width:100%;
-          height: 914px;
-      }
-    }
+      width: 100%;
+      height: 982px;
+      margin-top: -122px;
 
-  }   
-
-
-  .prod1 {
-    background-color: #e9f2fe;
-    @include media-breakpoint-up(sm) {
-      width: 502px;
-      height: 334px;
-    }
-    h3 {
-      color: #3a393e;
-      @include media-breakpoint-up(sm) {
-        padding: 52px 169px 0 31px;
-        font-size: 30px;
-        font-weight: bolder;
+      .bannertxt {
+        max-width: 660px;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 12%;
+        h5 {
+          color: #ffffff;
+          @include media-breakpoint-up(sm) {
+            font-size: 22px;
+            margin-bottom: 0;
+          }
+        }
+        h1 {
+          color: #ffffff;
+          width: 100%;
+          @include media-breakpoint-up(sm) {
+            font-size: 80px;
+            font-weight: bolder;
+            margin-top: 31px;
+          }
+        }
+        p {
+          color: #ffffff;
+          @include media-breakpoint-up(sm) {
+            font-size: 18px;
+          }
+        }
       }
-    }
-    h5 {
-      color: #3a393e;
-      @include media-breakpoint-up(sm) {
-        padding: 13px 391px 0 31px;
-        font-size: 22px;
-      }
-    }
-    .prodinfo {
-      .btnprodview {
+
+      .btnview {
         background-color: #e43556;
         border: none;
         color: white;
@@ -133,65 +69,82 @@ body {
         @include media-breakpoint-up(sm) {
           text-decoration: none;
           display: inline-block;
-          margin: 21px 304px 0 31px;
           border-radius: 0;
           font-size: 20px;
-          width: 150px;
-          height: 56px;
+          width: 149px;
+          height: 52px;
+          margin-top: 51px;
         }
       }
-      img {
-        width: 390px;
-        height: 260px;
+
+      .bannerimage {
+        background-image: url("../images/banner.png");
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        @include media-breakpoint-up(sm) {
+          position: absolute;
+          top: 167px;
+          right: 10%;
+          max-width: 610px;
+          width: 100%;
+          height: 914px;
+        }
       }
     }
   }
-  // .prod2 {
-  //   background-color: #e5f1f5;
-  //   @include media-breakpoint-up(sm) {
-  //     width: 502px;
-  //     height: 334px;
-  //     margin: 120px;
-  //     h3 {
-  //       color: #3a393e;
-  //       @include media-breakpoint-up(sm) {
-  //         padding: 52px 169px 0 31px;
-  //         font-size: 30px;
-  //         font-weight: bolder;
-  //       }
-  //     }
-  //     h5 {
-  //       color: #3a393e;
-  //       @include media-breakpoint-up(sm) {
-  //         padding: 13px 391px 0 31px;
-  //         font-size: 22px;
-  //       }
-  //     }
-  //     .prodinfo {
-  //       .btnprodview {
-  //         background-color: #e43556;
-  //         border: none;
-  //         color: white;
-  //         &:hover {
-  //           color: #e43556;
-  //           background-color: #dedede;
-  //         }
-  //         @include media-breakpoint-up(sm) {
-  //           text-decoration: none;
-  //           display: inline-block;
-  //           margin: 21px 304px 0 31px;
-  //           border-radius: 0;
-  //           font-size: 20px;
-  //           width: 150px;
-  //           height: 56px;
-  //         }
-  //       }
-  //       img {
-  //         width: 390px;
-  //         height: 260px;
-  //       }
-  //     }
-  //   }
-  // }
-}
+
+  .prodinfo {
+    margin-top: 60px;
+    .prod1 {
+      background-color: #e9f2fe;
+      @include media-breakpoint-up(sm) {
+        max-width: 502px;
+        width: 100%;
+        height: 334px;
+      }
+      h3 {
+        color: #3a393e;
+        @include media-breakpoint-up(sm) {
+          padding: 52px 169px 0 31px;
+          font-size: 30px;
+          font-weight: bolder;
+        }
+      }
+      h5 {
+        color: #3a393e;
+        @include media-breakpoint-up(sm) {
+          padding: 13px 0 0 31px;
+          font-size: 22px;
+        }
+      }
+
+      .prodimg{
+      .btnprod {
+        background-color: #e43556;
+        border: none;
+        color: white;
+        &:hover {
+          color: #e43556;
+          background-color: #dedede;
+        }
+        @include media-breakpoint-up(sm) {
+          text-decoration: none;
+          display: inline-block;
+          border-radius: 0;
+          font-size: 20px;
+          width: 149px;
+          height: 52px;
+          margin: 48px 0 0 25px;
+        }
+      }
+      img{
+        max-width: 390px;
+        width: 100%;
+        height: 260px;
+        position: absolute;
+      }
+     }
+    }
+  }
 }
