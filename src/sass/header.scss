@@ -1,43 +1,42 @@
 header {
-   position: relative;
- 
+  position: relative;
     .logo {
       background-image: url("../images/logo.png");
       width: 62px;
       height: 67px;
-      margin-top: 40px;
-
+      position: relative;
+      top:5%;
+      left:17%;
       h2 {
         font-size: 23px;
         font-weight: bold;
         width: 50px;
         height: 23px;
-        margin-top: 40px;
         color: #ffffff;
+        margin: 55px 0 0 65px;
+        span {
+          font-size: 22px;
+          font-weight: bold;
+          width: 73px;
+          height: 22px;
+          color: #e43556;
+          margin: 55px 0 0 2px;
+        }
       }
-      span {
-        font-size: 22px;
-        font-weight: bold;
-        width: 73px;
-        height: 22px;
-        margin-top: 40px;
-        color: #e43556;
-      }
+     
     }
+
     .navbar-nav {
-      margin-top: 30px;
+      margin-top: 38px;
       .nav-link {
         color: #ffffff;
-        margin: 0 auto;
         @include media-breakpoint-up(sm) {
           font-size: 20px;
           font-weight: 500;
-          padding-right: 2.5rem;
         }
       }
     }
 
-    .icon {
       .fa-shopping-bag {
         color: #e43556;
         width: 62px;
@@ -49,6 +48,7 @@ header {
           margin-top: 20px;
         }
       }
+      
       .btnsignup {
         background-color: #e43556;
         border: none;
@@ -67,5 +67,4 @@ header {
           margin-top: 20px;
         }
       }
-    }
   }

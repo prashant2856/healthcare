@@ -35,7 +35,7 @@ body {
     max-width: 660px;
     width: 100%;
     position: absolute;
-    top: 50%;
+    top: 30%;
     left:12%;
     h5 {
       color: #ffffff;
@@ -85,9 +85,16 @@ body {
     .bannerimage {
       background-image: url("../images/banner.png");
       background-size: 100%;
-      background-position: right center;
+      background-position: center;
       background-repeat: no-repeat;
-      height: 740px;
+      @include media-breakpoint-up(sm){
+          position: absolute;
+          top: 10%;
+          right:10%;
+          max-width: 610px;
+          width:100%;
+          height: 914px;
+      }
     }
 
   }   
