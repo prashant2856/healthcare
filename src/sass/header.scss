@@ -4,26 +4,24 @@ header.hc-header{
       background-image: url("../images/logo.png");
       width: 62px;
       height: 67px;
-      position: relative;
-      right:15%;
-      bottom: 15%;
+
       h2 {
         font-size: 23px;
         font-weight: bold;
         width: 50px;
         height: 23px;
         color: #ffffff;
-        margin: 55px 0 0 65px;
+
         span {
           font-size: 22px;
           font-weight: bold;
           width: 73px;
           height: 22px;
           color: #e43556;
-          margin: 55px 0 0 2px;
+
         }
       }
-     
+
     }
 
     .navbar-nav {
@@ -33,6 +31,7 @@ header.hc-header{
         @include media-breakpoint-up(sm) {
           font-size: 20px;
           font-weight: 500;
+          padding-right: 2.5rem;
         }
       }
     }
@@ -48,7 +47,7 @@ header.hc-header{
           margin-top: 20px;
         }
       }
-      
+
       .btnsignup {
         background-color: #e43556;
         border: none;
