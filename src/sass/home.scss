@@ -20,8 +20,9 @@ body {
   }
 
   .sectioninfo {
+    background-color: #2b4a84;
     .bgimage2 {
-      background-color: #2b4a84;
+      //background-color: #2b4a84;
       background-image: url("../images/virus.png");
       background-repeat: no-repeat;
       width: 100%;
@@ -32,8 +33,8 @@ body {
         max-width: 660px;
         width: 100%;
         position: absolute;
-        top: 50%;
-        left: 12%;
+        top:350px;
+        left:270px;
         h5 {
           color: #ffffff;
           @include media-breakpoint-up(sm) {
@@ -88,7 +89,7 @@ body {
           right: 10%;
           max-width: 610px;
           width: 100%;
-          height: 914px;
+          height: 885px;
         }
       }
     }
