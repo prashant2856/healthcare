@@ -84,7 +84,7 @@ body {
         background-repeat: no-repeat;
         @include media-breakpoint-up(sm) {
           position: absolute;
-          top: 167px;
+          top: 160px;
           right: 10%;
           max-width: 610px;
           width: 100%;
@@ -226,6 +226,6 @@ body {
     }
    }
    }
-
   }
+  
 }

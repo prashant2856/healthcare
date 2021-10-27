@@ -16,7 +16,7 @@ header.hc-header{
         width: 100%;
         
         .nav-menu{
-          @include media-breakpoint-down(md){
+          @include media-breakpoint-down(sm){
              border: 1px solid #38ADA9;
              width: 35px;
              height: 35px;
