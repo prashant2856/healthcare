@@ -312,5 +312,31 @@ body {
         }
       }
     }
+
+    .product-all{
+      text-align: center;
+      .btnall{
+        background-color: #e43556;
+        border: none;
+        color: white;
+        text-align: center;
+        &:hover {
+          color: #e43556;
+          background-color: #dedede;
+        }
+        @include media-breakpoint-up(sm) {
+          text-decoration: none;
+          display: inline-block;
+          border-radius: 0;
+          font-size: 20px;
+          width: 320px;
+          height: 52px;
+          margin-top: 51px;
+          font-size: 18px;
+          font-weight: 700;
+        }
+      }
+    }
+
   }
 }
