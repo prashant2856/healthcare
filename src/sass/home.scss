@@ -262,6 +262,14 @@ body {
         }
     }
 
+    .prodinfo1{
+      h3{
+      font-size: 18px;
+      font-weight: 600;
+      text-align: left;
+      }
+    }
+
     .feature-2{
       margin-top: 60px;
       background-color: #e9f2fe;
@@ -273,7 +281,7 @@ body {
       }
      
       .featureimg{
-        max-width: 220px;
+        max-width: 250px;
         width: 100%;
         img{
           width: 100%;
@@ -282,6 +290,27 @@ body {
           object-position: center;
           }
         }
+    }
+    .prodinfo2{
+      h3{
+      font-size: 18px;
+      font-weight: 600;
+      text-align: left;
+      }
+    }
+    .priceinfo{
+      h4{
+        color:#e43556;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: left;
+        span{
+          font-size: 14px;
+          text-decoration: line-through;
+          color: #808080;
+          margin-left: 0.5rem;
+        }
+      }
     }
   }
 }
