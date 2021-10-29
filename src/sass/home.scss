@@ -105,14 +105,22 @@ body {
         max-width: 502px;
         width: 100%;
         height: 334px;
+        position: relative;
       }
-      .discount{
+      .discount {
         //background-color: red;
         span {
           color: #ffffff;
-          background-image: url("../images/off.png");
-          background-size: 100%;
-          background-position: center;
+          position: absolute;
+          top: 0;
+          left: 10px;
+          width: 35px;
+          .distext {
+            background-image: url("../images/off.png");
+            background-size: 100%;
+            background-position: center;
+            font-size: 16px;
+          }
         }
       }
       h3 {
@@ -251,7 +259,7 @@ body {
     }
     .feature-1 {
       margin-top: 60px;
-      background-color: #e5f1f5;
+      background-color: #f5f5f5;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -259,6 +267,23 @@ body {
         max-width: 502px;
         width: 100%;
         height: 360px;
+      }
+      
+      .discount {
+        //background-color: red;
+        span {
+          color: #ffffff;
+          position: relative;
+          bottom: 155px;
+          right: 98px;
+          .distext {
+            background-image: url("../images/off.png");
+            background-size: 100%;
+            background-position: center;
+            font-size: 16px;
+            width:35px;
+          }
+        }
       }
 
       .featureimg {
@@ -283,7 +308,7 @@ body {
 
     .feature-2 {
       margin-top: 60px;
-      background-color: #e9f2fe;
+      background-color: #e5f1f5;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -291,6 +316,23 @@ body {
         max-width: 502px;
         width: 100%;
         height: 360px;
+      }
+      
+      .discount {
+        //background-color: red;
+        span {
+          color: #ffffff;
+          position: relative;
+          bottom: 155px;
+          right: 68px;
+          .distext {
+            background-image: url("../images/off.png");
+            background-size: 100%;
+            background-position: center;
+            font-size: 16px;
+            width:35px;
+          }
+        }
       }
 
       .featureimg {
@@ -378,7 +420,7 @@ body {
           }
         }
         h2 {
-          margin-top: 30px; 
+          margin-top: 30px;
           font-size: 50px;
           font-weight: bolder;
         }
@@ -448,7 +490,7 @@ body {
             img {
               width: 100%;
               height: 100%;
-                }
+            }
           }
           .image-bottom2 {
             max-width: 250px;
@@ -470,7 +512,7 @@ body {
       width: 100%;
       height: 639px;
       position: absolute;
-      left:76%;
+      left: 76%;
       margin-top: 80px;
       img {
         width: 100%;
