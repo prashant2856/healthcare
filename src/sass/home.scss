@@ -225,7 +225,7 @@ body {
         object-position: center;
         }
      }
-   }
+    }
    }
   }
   .featured{
@@ -243,7 +243,9 @@ body {
     .feature-1{
       margin-top: 60px;
       background-color: #E5F1F5;
-      padding: 80px 50px 50px 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       @include media-breakpoint-up(sm) {
         max-width: 502px;
         width: 100%;
@@ -251,7 +253,7 @@ body {
       }
      
       .featureimg{
-        max-width: 220px;
+        max-width: 250px;
         width: 100%;
         img{
           width: 100%;
@@ -273,7 +275,9 @@ body {
     .feature-2{
       margin-top: 60px;
       background-color: #e9f2fe;
-      padding: 80px 50px 50px 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       @include media-breakpoint-up(sm) {
         max-width: 502px;
         width: 100%;
@@ -281,7 +285,7 @@ body {
       }
      
       .featureimg{
-        max-width: 250px;
+        max-width: 310px;
         width: 100%;
         img{
           width: 100%;
@@ -339,20 +343,21 @@ body {
     }
     .featurebanner{
         margin-top: 40px;
-        max-width: 1400px;
+        max-width: 1555px;
         width: 100%;
-        height: 700px;
+        height: 723px;
         background-color: #e9f2fe;
         .bannercontent{
           max-width: 655px;
           width: 100%;
           height: 278px;
           position: relative;
-          top:250px;
+          top:30%;
           left:176px;
           h4{
-            font-size: 18px;
+            font-size: 20px;
             font-weight: 700;
+            margin-bottom: 0;
             span{
               color: #e43556;
               font-size: 20px;
@@ -361,13 +366,14 @@ body {
             }
           }
           h2{
-            margin-top: 20px;
-            font-size: 36px;
-            font-weight: bold;
+            font-size: 50px;
+            font-weight: bolder;
+
           }
           p{
             font-size: 18px;
             color: #808080;
+            text-align: left;
           }
           .btntext{
             display: flex;
@@ -423,12 +429,12 @@ body {
       margin-top: 50px;
       display: flex;
       align-items: center;
-      justify-content: space-evenly;
+      justify-content: center;
       img{
-        max-width: 111px;
-        width: 100%;
-        height: 111px;
-        border-radius: 50%;
+       max-width: 111px;
+       width: 100%;
+       height: 111px;
+       border-radius: 50%;
       }
     }
       p{

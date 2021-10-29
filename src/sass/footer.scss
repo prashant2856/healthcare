@@ -9,9 +9,8 @@ footer.hc-footer {
 
     .footerbg{
      background-color: #F1F6FF;
-     max-width: 1920px;
      width: 100%;
-     height: 566px;
+     height: 550px;
     .footer1{
          margin-top: 47px;
         .footer-logo {
@@ -112,9 +111,8 @@ footer.hc-footer {
          }
        }
        .copyright{
+         border: 1px solid #3A393E;
          margin-top: 122px;
-         color: gray;
-         width: 100%;
        }
    }
 }
