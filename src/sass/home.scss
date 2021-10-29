@@ -341,77 +341,121 @@ body {
         }
       }
     }
+  }
+
+  .protection{
     .featurebanner{
-        margin-top: 40px;
-        max-width: 1555px;
+      margin-top: 40px;
+      max-width: 1555px;
+      width: 100%;
+      height: 723px;
+      background-color: #e9f2fe;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .bannercontent{
+        max-width: 655px;
         width: 100%;
-        height: 723px;
-        background-color: #e9f2fe;
-        .bannercontent{
-          max-width: 655px;
-          width: 100%;
-          height: 278px;
-          position: relative;
-          top:30%;
-          left:176px;
-          h4{
+        height: 278px;  
+        h4{
+          font-size: 20px;
+          font-weight: 700;
+          margin-bottom: 0;
+          span{
+            color: #e43556;
             font-size: 20px;
             font-weight: 700;
-            margin-bottom: 0;
-            span{
-              color: #e43556;
-              font-size: 20px;
-              font-weight: 700;
-              margin-right: 0.5rem;
-            }
+            margin-right: 0.5rem;
           }
-          h2{
-            font-size: 50px;
-            font-weight: bolder;
+        }
+        h2{
+          font-size: 50px;
+          font-weight: bolder;
 
+        }
+        p{
+          font-size: 18px;
+          color: #808080;
+          text-align: left;
+        }
+        .btntext{
+          display: flex;
+          align-items: center;
+          justify-items: left;
+        .btnbuy {
+          background-color: #e43556;
+          border: none;
+          color: white;
+          &:hover {
+            color: #e43556;
+            background-color: #dedede;
           }
-          p{
+          @include media-breakpoint-up(sm) {
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 0;
+            font-size: 20px;
+            width: 149px;
+            height: 52px;
+            margin-top: 51px;
+          }
+        } 
+          h4{
             font-size: 18px;
             color: #808080;
-            text-align: left;
-          }
-          .btntext{
-            display: flex;
-            align-items: center;
-            justify-items: left;
-          .btnbuy {
-            background-color: #e43556;
-            border: none;
-            color: white;
-            &:hover {
-              color: #e43556;
-              background-color: #dedede;
-            }
-            @include media-breakpoint-up(sm) {
-              text-decoration: none;
-              display: inline-block;
-              border-radius: 0;
-              font-size: 20px;
-              width: 149px;
-              height: 52px;
-              margin-top: 51px;
-            }
-          } 
-            h4{
-              font-size: 18px;
-              color: #808080;
-              padding: 50px 0 0 20px;
-            span{
-              color: #e43556;
-              font-size: 18px;
-              margin-left:0.5rem;
-             }
-           } 
-          }  
+            padding: 50px 0 0 20px;
+          span{
+            color: #e43556;
+            font-size: 18px;
+            margin-left:0.5rem;
+           }
+         } 
+        }  
+      }
+     .bannerlogo{
+      max-width: 400px;
+      width: 100%;
+      height: 430px;
+      .image-top{
+        img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
         }
-       
-     }  
-  }
+       }
+       .bottom-logo{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+       .image-bottom1{
+         img{
+           width: 100%;
+           height: 100%;
+         }
+       }
+       .image-bottom2{
+         img{
+          width: 100%;
+          height: 100%;
+         }
+       }
+      }
+     }
+     .bgimage-bottom{
+        max-width:400px;
+        width: 100%;
+        height: 690px;
+       img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: right;
+       }
+     }
+   }  
+  } 
+
   .review{
     margin-top: 40px;
     h3{
