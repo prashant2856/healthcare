@@ -106,13 +106,13 @@ body {
         width: 100%;
         height: 334px;
       }
-      .discount {
+      .discount{
+        //background-color: red;
         span {
           color: #ffffff;
           background-image: url("../images/off.png");
           background-size: 100%;
           background-position: center;
-          background-repeat: no-repeat;
         }
       }
       h3 {
@@ -357,7 +357,7 @@ body {
       margin-top: 40px;
       max-width: 1555px;
       width: 100%;
-      height: 723px;
+      height: 680px;
       background-color: #e9f2fe;
       display: flex;
       align-items: center;
@@ -378,6 +378,7 @@ body {
           }
         }
         h2 {
+          margin-top: 30px; 
           font-size: 50px;
           font-weight: bolder;
         }
@@ -421,9 +422,9 @@ body {
         }
       }
       .bannerlogo {
-        max-width: 520px;
+        max-width: 420px;
         width: 100%;
-        height: 420px;
+        height: 480px;
         .image-top {
           img {
             width: 100%;
@@ -436,12 +437,14 @@ body {
           display: flex;
           align-items: center;
           justify-content: center;
-          
-          
+          position: absolute;
           .image-bottom1 {
             max-width: 500px;
             width: 100%;
-            height: 450px;
+            height: 380px;
+            position: relative;
+            bottom: 240px;
+            right: 35px;
             img {
               width: 100%;
               height: 100%;
@@ -451,6 +454,9 @@ body {
             max-width: 250px;
             width: 100%;
             height: 150px;
+            position: absolute;
+            bottom: 295px;
+            left: 275px;
             img {
               width: 100%;
               height: 100%;
@@ -462,10 +468,10 @@ body {
     .bgimage-bottom {
       max-width: 300px;
       width: 100%;
-      height: 620px;
+      height: 639px;
       position: absolute;
       left:76%;
-      margin-top: 140px;
+      margin-top: 80px;
       img {
         width: 100%;
         height: 100%;
