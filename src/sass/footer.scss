@@ -1,5 +1,120 @@
 footer.hc-footer {
-    .footertext{
-       // font-size: 12px;
+    width: 100%;
+    padding-top: 50px;
+
+    .container{
+        max-width: 1156px;
+        width: 100%;
     }
+
+    .footerbg{
+     background-color: #F1F6FF;
+     max-width: 1920px;
+     width: 100%;
+     height: 566px;
+    .footer1{
+         margin-top: 47px;
+        .footer-logo {
+            background-image: url("../images/logo.png");
+            width: 62px;
+            height: 67px;
+            .logo-text{
+             width: 215px;
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             justify-content: space-between;
+              h3 {
+                font-size: 22px;
+                font-weight: bold;            
+                color: #e43556;
+                padding-left: 15px;
+              }
+              h2 {
+                font-size: 23px;
+                font-weight: bold;
+                color: #000000;
+              }
+    
+            }
+      
+          }
+        
+         
+          p{
+            color: #3A393E;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: left;
+            margin-top: 40px;
+           }
+
+           .social-icon{
+            margin-top: 40px;   
+            a{
+             .fa-facebook-square{
+                 width: 34px;
+                 height: 34px;
+                 color: #3B5999;
+             }
+             .fa-twitter-square{
+                width: 34px;
+                height: 34px;
+                color: #03A9F4;
+             }
+             .fa-youtube{
+                width: 34px;
+                height: 34px; 
+                color: #FF0000;
+             }
+             .fa-linkedin{
+                width: 34px;
+                height: 34px;
+                color: #2196F3;
+             }
+           }
+         }
+       }
+       .quick-link{
+        margin-top: 47px;
+           h5{
+               font-size: 22px;
+               color: #3A393E;
+           }
+           ul {
+            li {
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+                    color: #3A393E;
+                    font-size: 18px;
+                    line-height: 40px;
+                  }
+            }
+          }
+       }
+       .insta-img{
+         margin-top: 47px;
+         h5{
+          font-size: 22px;
+          color: #3A393E;
+         }
+         .gridimg{
+           display: flex;
+           align-items: center;
+           justify-content: space-evenly;
+           .insta{
+              padding-left:10px;
+              width: 100%;
+              height: 100%;
+           } 
+         }
+       }
+       .copyright{
+         margin-top: 122px;
+         color: gray;
+         width: 100%;
+       }
+   }
 }
