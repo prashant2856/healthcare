@@ -34,17 +34,21 @@ body {
         width: 100%;
         position: absolute;
         top: 350px;
-        left: 270px;
         h5 {
           color: #ffffff;
           @include media-breakpoint-up(sm) {
             font-size: 22px;
             margin-bottom: 0;
+            position: absolute;
+            top: 350px;
+            left: 270px;
           }
         }
         h1 {
           color: #ffffff;
           width: 100%;
+          font-size: 40px;
+          font-weight: bolder;
           @include media-breakpoint-up(sm) {
             font-size: 80px;
             font-weight: bolder;
@@ -53,16 +57,16 @@ body {
         }
         p {
           color: #ffffff;
-          @include media-breakpoint-up(sm) {
-            font-size: 18px;
-          }
+          font-size: 18px;
         }
       }
 
       .btnview {
         background-color: #e43556;
-        border: none;
         color: white;
+        font-size: 18px;
+        width: 149px;
+        height: 52px;
         &:hover {
           color: #e43556;
           background-color: #dedede;
@@ -101,11 +105,11 @@ body {
     .prod1 {
       background-color: #e9f2fe;
       padding: 51px 0 10px 31px;
+
       @include media-breakpoint-up(sm) {
         max-width: 502px;
         width: 100%;
         height: 334px;
-        position: relative;
       }
       .discount {
         //background-color: red;
@@ -125,6 +129,7 @@ body {
       }
       h3 {
         color: #3a393e;
+        font-size: 20px;
         @include media-breakpoint-up(sm) {
           font-size: 30px;
           font-weight: bolder;
@@ -132,6 +137,7 @@ body {
       }
       h5 {
         color: #3a393e;
+        font-size: 18px;
         @include media-breakpoint-up(sm) {
           padding-top: 13px;
           font-size: 22px;
@@ -150,7 +156,9 @@ body {
           background-color: #e43556;
           border: none;
           color: white;
-
+          font-size: 18px;
+          width: 100px;
+          height: 40px;
           position: absolute;
           &:hover {
             color: #e43556;
@@ -167,9 +175,12 @@ body {
         }
 
         .image1 {
-          // height: 260px;
-          max-width: 290px;
+          max-width: 210px;
           width: 100%;
+          @include media-breakpoint-up(sm) {
+            max-width: 290px;
+            width: 100%;
+          }
           img {
             width: 100%;
             height: 100%;
@@ -188,6 +199,7 @@ body {
         height: 334px;
       }
       h3 {
+        font-size: 20px;
         color: #3a393e;
         @include media-breakpoint-up(sm) {
           font-size: 30px;
@@ -196,6 +208,7 @@ body {
       }
       h5 {
         color: #3a393e;
+        font-size: 18px;
         @include media-breakpoint-up(sm) {
           padding-top: 13px;
           font-size: 22px;
@@ -214,8 +227,11 @@ body {
           background-color: #e43556;
           border: none;
           color: white;
-
+          font-size: 18px;
+          width: 100px;
+          height: 40px;
           position: absolute;
+          left: 20px;
           &:hover {
             color: #e43556;
             background-color: #dedede;
@@ -248,14 +264,24 @@ body {
   .featured {
     //margin-top: 40px;
     h3 {
-      margin-top: 30px;
-      font-size: 24px;
+      font-size: 20px;
       text-align: center;
+      margin-top: 30px;
+      @include media-breakpoint-up(sm) {
+        margin-top: 30px;
+        font-size: 24px;
+        text-align: center;
+      }
     }
     h2 {
-      font-size: 52px;
-      font-weight: bold;
+      font-size: 25px;
       text-align: center;
+      font-weight: bold;
+      @include media-breakpoint-up(sm) {
+        font-size: 52px;
+        font-weight: bold;
+        text-align: center;
+      }
     }
     .feature-1 {
       margin-top: 60px;
@@ -268,27 +294,42 @@ body {
         width: 100%;
         height: 360px;
       }
-      
+
       .discount {
-        //background-color: red;
         span {
           color: #ffffff;
           position: relative;
-          bottom: 155px;
-          right: 98px;
+          bottom: 80px;
+          right: 45px;
+          @include media-breakpoint-up(sm) {
+            position: relative;
+            bottom: 155px;
+            right: 98px;
+          }
           .distext {
             background-image: url("../images/off.png");
             background-size: 100%;
             background-position: center;
-            font-size: 16px;
-            width:35px;
+            font-size: 14px;
+            width: 30px;
+            @include media-breakpoint-up(sm) {
+              background-image: url("../images/off.png");
+              background-size: 100%;
+              background-position: center;
+              font-size: 16px;
+              width: 35px;
+            }
           }
         }
       }
 
       .featureimg {
-        max-width: 250px;
+        max-width: 200px;
         width: 100%;
+        @include media-breakpoint-up(sm) {
+          max-width: 250px;
+          width: 100%;
+        }
         img {
           width: 100%;
           height: 100%;
@@ -317,20 +358,31 @@ body {
         width: 100%;
         height: 360px;
       }
-      
+
       .discount {
-        //background-color: red;
         span {
           color: #ffffff;
           position: relative;
-          bottom: 155px;
-          right: 68px;
+          bottom: 80px;
+          right: 45px;
+          @include media-breakpoint-up(sm) {
+            position: relative;
+            bottom: 155px;
+            right: 68px;
+          }
           .distext {
             background-image: url("../images/off.png");
             background-size: 100%;
             background-position: center;
-            font-size: 16px;
-            width:35px;
+            font-size: 14px;
+            width: 30px;
+            @include media-breakpoint-up(sm) {
+              background-image: url("../images/off.png");
+              background-size: 100%;
+              background-position: center;
+              font-size: 16px;
+              width: 35px;
+            }
           }
         }
       }
@@ -354,6 +406,9 @@ body {
       }
     }
     .priceinfo {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
       h4 {
         color: #e43556;
         font-size: 18px;
@@ -374,6 +429,11 @@ body {
         background-color: #e43556;
         border: none;
         color: white;
+        font-size: 18px;
+        font-weight: 700;
+        width: 200px;
+        height: 40px;
+        margin-top: 40px;
         text-align: center;
         &:hover {
           color: #e43556;
@@ -384,11 +444,10 @@ body {
           display: inline-block;
           border-radius: 0;
           font-size: 20px;
+          font-weight: 700;
           width: 320px;
           height: 52px;
           margin-top: 51px;
-          font-size: 18px;
-          font-weight: 700;
         }
       }
     }
@@ -409,25 +468,43 @@ body {
         width: 100%;
         height: 278px;
         h4 {
-          font-size: 20px;
+          font-size: 18px;
           font-weight: 700;
-          margin-bottom: 0;
-          span {
-            color: #e43556;
+          text-align: center;
+          @include media-breakpoint-up(sm) {
             font-size: 20px;
             font-weight: 700;
+            margin-bottom: 0;
+          }
+          span {
+            color: #e43556;
+            font-size: 18px;
+            font-weight: 700;
             margin-right: 0.5rem;
+            @include media-breakpoint-up(sm) {
+              font-size: 20px;
+              font-weight: 700;
+              margin-right: 0.5rem;
+            }
           }
         }
         h2 {
           margin-top: 30px;
-          font-size: 50px;
+          font-size: 30px;
           font-weight: bolder;
+          @include media-breakpoint-up(sm) {
+            margin-top: 30px;
+            font-size: 50px;
+            font-weight: bolder;
+          }
         }
         p {
-          font-size: 18px;
+          font-size: 16px;
           color: #808080;
-          text-align: left;
+          @include media-breakpoint-up(sm) {
+            font-size: 18px;
+            text-align: left;
+          }
         }
         .btntext {
           display: flex;
@@ -437,6 +514,10 @@ body {
             background-color: #e43556;
             border: none;
             color: white;
+            font-size: 20px;
+            width: 100px;
+            height: 40px;
+            margin-top: 51px;
             &:hover {
               color: #e43556;
               background-color: #dedede;
@@ -463,23 +544,33 @@ body {
           }
         }
       }
+
       .bannerlogo {
-        max-width: 420px;
-        width: 100%;
-        height: 480px;
-        .image-top {
-          img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: center;
+          .image-top{
+            img{
+              display: none;
+            }
+          }
+         @include media-breakpoint-up(sm) {
+          max-width: 420px;
+          width: 100%;
+          height: 480px;
+          .image-top {
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              object-position: center;
+            }
           }
         }
+
         .bottom-logo {
           display: flex;
           align-items: center;
           justify-content: center;
           position: absolute;
+
           .image-bottom1 {
             max-width: 500px;
             width: 100%;
@@ -507,17 +598,24 @@ body {
         }
       }
     }
+
     .bgimage-bottom {
-      max-width: 300px;
-      width: 100%;
-      height: 639px;
-      position: absolute;
-      left: 76%;
-      margin-top: 80px;
-      img {
-        width: 100%;
-        height: 100%;
+      img{
+        display: none;
       }
+      @include media-breakpoint-up(sm){
+        max-width: 300px;
+        width: 100%;
+        height: 639px;
+        position: absolute;
+        left: 76%;
+        margin-top: 80px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+     
     }
   }
 
