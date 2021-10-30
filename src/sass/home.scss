@@ -39,9 +39,6 @@ body {
           @include media-breakpoint-up(sm) {
             font-size: 22px;
             margin-bottom: 0;
-            position: absolute;
-            top: 350px;
-            left: 270px;
           }
         }
         h1 {
@@ -102,6 +99,9 @@ body {
   .prodinfo {
     position: relative;
     margin-top: 60px;
+    background-image: url(../images/virusbg.png);
+    background-repeat: no-repeat;
+    background-position: left;
     .prod1 {
       background-color: #e9f2fe;
       padding: 51px 0 10px 31px;
@@ -263,6 +263,9 @@ body {
   }
   .featured {
     //margin-top: 40px;
+    background-image: url(../images/virusbg.png);
+    background-repeat: no-repeat;
+    background-position: right;
     h3 {
       font-size: 20px;
       text-align: center;
@@ -454,6 +457,9 @@ body {
   }
 
   .protection {
+    background-image: url(../images/virusbg.png);
+    background-repeat: no-repeat;
+    background-position: right;
     .featurebanner {
       margin-top: 40px;
       max-width: 1555px;
@@ -474,6 +480,7 @@ body {
           @include media-breakpoint-up(sm) {
             font-size: 20px;
             font-weight: 700;
+            text-align: left;
             margin-bottom: 0;
           }
           span {
@@ -492,15 +499,18 @@ body {
           margin-top: 30px;
           font-size: 30px;
           font-weight: bolder;
+          text-align: center;
           @include media-breakpoint-up(sm) {
             margin-top: 30px;
             font-size: 50px;
             font-weight: bolder;
+            text-align: left;
           }
         }
         p {
           font-size: 16px;
           color: #808080;
+          text-align: center;
           @include media-breakpoint-up(sm) {
             font-size: 18px;
             text-align: left;
@@ -509,7 +519,6 @@ body {
         .btntext {
           display: flex;
           align-items: center;
-          justify-items: left;
           .btnbuy {
             background-color: #e43556;
             border: none;
@@ -518,6 +527,7 @@ body {
             width: 100px;
             height: 40px;
             margin-top: 51px;
+            
             &:hover {
               color: #e43556;
               background-color: #dedede;
@@ -533,24 +543,35 @@ body {
             }
           }
           h4 {
-            font-size: 18px;
+            font-size: 16px;
             color: #808080;
             padding: 50px 0 0 20px;
+            @include media-breakpoint-up(sm){
+              font-size: 18px;
+              padding: 50px 0 0 20px;
+            }
             span {
               color: #e43556;
+              font-size: 16px;
+              margin-left: 0.5rem;
+              text-align: right;
+              @include media-breakpoint-up(sm){
               font-size: 18px;
               margin-left: 0.5rem;
+              }
             }
           }
         }
       }
 
       .bannerlogo {
-          .image-top{
-            img{
-              display: none;
-            }
-          }
+         @include media-breakpoint-down(sm){
+           .image-top{
+             img{
+               display: none;
+             }
+           }
+         }
          @include media-breakpoint-up(sm) {
           max-width: 420px;
           width: 100%;
@@ -600,8 +621,10 @@ body {
     }
 
     .bgimage-bottom {
-      img{
-        display: none;
+      @include media-breakpoint-down(sm){
+        img{
+          display: none;
+        }
       }
       @include media-breakpoint-up(sm){
         max-width: 300px;
@@ -621,15 +644,28 @@ body {
 
   .review {
     margin-top: 40px;
+    background-image: url(../images/virusbg.png);
+    background-repeat: no-repeat;
+    background-position: left;
     h3 {
+      font-size: 20px;
       margin-top: 30px;
-      font-size: 30px;
       text-align: center;
+      @include media-breakpoint-up(sm){
+        margin-top: 30px;
+        font-size: 30px;
+        text-align: center;
+      }
     }
     h2 {
-      font-size: 52px;
+      font-size: 30px;
       font-weight: bold;
       text-align: center;
+      @include media-breakpoint-up(sm){
+        font-size: 52px;
+        font-weight: bold;
+        text-align: center;
+      }
     }
     .customercircle {
       .custinfo {
@@ -645,16 +681,26 @@ body {
         }
       }
       p {
+        color: #3a393e; 
         margin-top: 28px;
-        color: #3a393e;
+        font-size: 16px;
+        text-align: center;
+        line-height: 20px;
+        @include media-breakpoint-up(sm){
+        margin-top: 28px;
         font-size: 18px;
         text-align: center;
         line-height: 26px;
+        }
       }
       h3 {
-        font-size: 16px;
         color: #3a393e;
+        font-size: 14px;
         text-align: center;
+        @include media-breakpoint-up(sm){
+        font-size: 16px;
+        text-align: center;
+        }
       }
     }
   }
